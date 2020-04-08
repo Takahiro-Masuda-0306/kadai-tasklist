@@ -8,6 +8,11 @@
 
 <div class="row">
     <div class="col-sm-6 offset-sm-3">
+        
+    <div class="form-group mb-3">
+        {!! Form::label('status', 'ステータス', ['class'=>'mb-2']) !!}
+        {!! Form::text('status', null, ['class'=>'form-control']) !!}
+    </div>
 
     <div class="form-group mb-3">
     {!! Form::label('content', 'タスク内容', ['class'=>'mb-3']) !!}
