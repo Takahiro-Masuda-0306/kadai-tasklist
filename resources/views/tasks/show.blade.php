@@ -7,6 +7,11 @@
 
 <table class="table table-striped">
     <tr>
+        <th>status</th>
+        <td>{{ $task->status }}</td>
+    </tr>
+    
+    <tr>
         <th>contents</th>
         <td>{{ $task->content }}</td>
     </tr>
