@@ -2,7 +2,7 @@
 
 @section('content')
 
-@if(Auth::check())
+@if(\Auth::check())
 
 <h1 class="mb-4">タスク一覧</h1>
 
